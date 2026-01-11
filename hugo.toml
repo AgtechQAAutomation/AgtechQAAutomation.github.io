@@ -64,11 +64,6 @@ enableGitInfo = true
   parent = 'Documentation'
 
 [[menu.home]]
-  name = 'Showcases'
-  pageRef = '/showcases/'
-  weight = 2
-
-[[menu.home]]
   name = 'Github'
   url = 'https://github.com/alex-shpak/hugo-book/'
   weight = 3
