@@ -6,7 +6,7 @@ Product Documentation for Raithu
 You need to install Hugo and then run
 
 ```sh
-git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
+git submodule add -f https://github.com/alex-shpak/hugo-book themes/hugo-book
 hugo server
 ```
 
