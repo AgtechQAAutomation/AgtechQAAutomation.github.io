@@ -4,11 +4,11 @@
 # hugo server --printPathWarnings --disableFastRender --cleanDestinationDir=true --logLevel=debug \
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
 
-baseURL = 'http://0.0.0.0:1313/hugo-book/'
-title = 'Hugo Book'
+baseURL = 'http://0.0.0.0:1313/raithu/'
+title = 'RAITHU'
 theme = 'hugo-book'
 
-copyright = '[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)'
+copyright = '[© KJBN Labs](https://creativecommons.org/licenses/by/4.0/legalcode)'
 
 # Book configuration
 disablePathToLower = true
@@ -35,44 +35,10 @@ enableGitInfo = true
   contentDir = 'content.en'
   weight = 1
 
-[languages.zh]
-  languageName = 'Chinese'
-  contentDir = 'content.zh'
+[languages.pt]
+  languageName = 'Portuguese'
+  contentDir = 'content.pt'
   weight = 2
-
-[languages.he]
-  languageName = 'Hebrew'
-  contentDir = 'content.he'
-  languageDirection = 'rtl'
-  weight = 3
-
-[menu]
-[[menu.home]]
-  name = 'Documentation'
-  pageRef = '/docs/example/'
-  weight = 1
-
-[[menu.home]]
-  pageRef = '/docs/example/'
-  weight = 10
-  parent = 'Documentation'
-
-[[menu.home]]
-  name = 'Shortcodes'
-  pageRef = '/docs/shortcodes/buttons/'
-  weight = 20
-  parent = 'Documentation'
-
-[[menu.home]]
-  name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
-  weight = 3
-
-# [[menu.before]]
-[[menu.after]]
-  name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
-  weight = 10
 
 [[menu.after]]
   name = 'Hugo Themes'
@@ -136,7 +102,7 @@ enableGitInfo = true
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
   # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
-  # Hugo Book will print warning or error if page referenced in markdown does not exists.
+  # RAITHU will print warning or error if page referenced in markdown does not exists.
   # Possible values are false | 'warning' | 'error'
   BookPortableLinks = 'warning'
 

@@ -5,10 +5,10 @@
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
 
 baseURL: http://0.0.0.0:1313/hugo-book/
-title: Hugo Book
+title: RAITHU
 theme: hugo-book
 
-copyright: "[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)"
+copyright: "[© KJBN Labs](https://raithu.tech)"
 
 # Book configuration
 disablePathToLower: true
@@ -121,7 +121,7 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
   # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
-  # Hugo Book will print warning or error if page referenced in markdown does not exists.
+  # RAITHU will print warning or error if page referenced in markdown does not exists.
   # Possible values are false | 'warning' | 'error'
   BookPortableLinks: 'warning'
 

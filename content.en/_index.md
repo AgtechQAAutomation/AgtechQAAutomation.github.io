@@ -5,62 +5,49 @@ layout: landing
 
 <div class="book-hero">
 
-# HUGO BOOK {anchor=false}
-[Hugo](https://gohugo.io) documentation theme as simple as plain book
+# RAITHU {anchor=false}
+[Raithu](https://raithu.tech) a KJBN Labs Innovation, Built for the Future of Agriculture.
 
-[{{< badge style="info" title="Hugo" value="0.146" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.146.7)
-[{{< badge style="default" title="License" value="MIT" >}}](https://github.com/alex-shpak/hugo-book/blob/main/LICENSE)
+[{{< badge style="info" title="Version" value="1.0" >}}](https://github.com/KJBNAgtechPlatform)
 
-{{<button href="/docs/example">}}Explore{{</button>}}
+{{<button href="/docs/example">}}User Guide{{</button>}}
 
 </div>
 
-{{% columns %}}
-- ## What Hugo-Book Theme Is
-  Hugo book theme is primarily designed to create technical documentation sites that are easy to read, write, navigate and maintain. It is an attempt to create a sustainable web project.
 
-- ## What Hugo-Book Theme Is Not
-  Book theme is not trying to implement all features but to create a starting point. It is mostly feature complete and gets updated and improved to stay relevant with Hugo and modern web.
+{{% columns %}}
+- {{< card >}}
+  ## Digitized farmers & fields
+  Every farmer, plot, and crop cycle is digitally mapped and uniquely identified, creating a single source of truth for large-scale agriculture operations.
+  {{< /card >}}
+
+- {{< card >}}
+  ## Real-time crop intelligence
+  Monitor field execution, crop health, and risks using remote sensing and ground data to predict outcomes and act before losses occur.
+  {{< /card >}}
+
+- {{< card >}}
+  ## End-to-end traceability
+  From seed to harvest and settlement, every activity is recorded on immutable ledgers, ensuring transparency, trust, and audit-ready records.
+  {{< /card >}}
+
+
 {{% /columns %}}
 
 
 {{% columns %}}
 - {{< card >}}
-  ## Probably fast
-  Build on Hugo static site generator. "The world’s fastest framework for building websites".
+  ## Verified compliance
+  Operational compliance is fully digitized — inspections, inputs, and practices are captured, verified, and aligned with quality and regulatory standards.
   {{< /card >}}
 
 - {{< card >}}
-  ## 50% JS free
-  All important features are working even with JavaScript disabled in browser, including interactive shortcodes.
+  ## Proactive pest protection
+  IPM intelligence detects early pest and disease signals and recommends precise, timely interventions to protect yield and reduce chemical usage.
   {{< /card >}}
 
 - {{< card >}}
-  ## Minimalistic
-  For real, it is very minimalistic, black on white. No extra tools are needed to build the site, only Hugo. No heavy JS or CSS frameworks included.
-  {{< /card >}}
-{{% /columns %}}
-
-{{% columns %}}
-- {{< card >}}
-  ### Shortcodes
-  Pretty good shortcodes are included to enhance markup files:
-  [Columns](/docs/shortcodes/columns/),
-  [Cards](/docs/shortcodes/experimental/cards/),
-  [Tabs](/docs/shortcodes/tabs/),
-  [Images](/docs/shortcodes/experimental/images/),
-  [Asciinema](/docs/shortcodes/experimental/asciinema/),
-  [KaTex](/docs/shortcodes/katex/),
-  [Mermaid](/docs/shortcodes/mermaid/) and others.
-  {{< /card >}}
-
-- {{< card >}}
-  ### Even more
-  Do people actually read these? I thought it was just a visual filler. But there is full-text search and multi-language support.
-  {{< /card >}}
-
-- {{< card >}}
-  ### Made to be extendable
-  There are multiple points to inject own styles and templates to make your documentation your own.
+  ## Offline-first field apps
+  Field teams work seamlessly even in low-connectivity regions, capturing data offline and syncing automatically without delays or data loss.
   {{< /card >}}
 {{% /columns %}}
