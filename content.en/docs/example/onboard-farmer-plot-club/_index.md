@@ -1,6 +1,6 @@
 ---
 title: "Register Farmer/Plot/club"
-weight: 1
+weight: 2
 bookCollapseSection: true
 ---
 
